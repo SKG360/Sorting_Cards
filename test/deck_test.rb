@@ -6,10 +6,6 @@ require './lib/deck'
 require 'pry'
 
 class DeckTest < Minitest::Test
-  def test_if_it_exists
-    deck = Deck.new([1,2,3])
-    assert_instance_of Deck, deck
-  end
 
   def test_if_three_card_objects_are_passed
     card_1 = Card.new("3","Hearts")
@@ -23,7 +19,6 @@ class DeckTest < Minitest::Test
   end
 
   def test_if_three_card_objects_are_passed
-    
     card_1 = Card.new("3","Hearts")
     card_2 = Card.new("4", "Clubs")
     card_3 = Card.new("5", "Diamonds")
