@@ -27,7 +27,3 @@ class Guess
   end
 
 end
-
-# card = Cards.new("10", "Hearts")
-# guess = Guess.new("10 of Hearts", card)
-#
