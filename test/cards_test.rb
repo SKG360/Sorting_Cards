@@ -2,7 +2,7 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require './lib/cards'
 
-class CardsTest < Minitest::Test
+class Cardstest < Minitest::Test
   def test_if_it_exists
     card = Cards.new("Ace", "Spades")
 
@@ -18,4 +18,5 @@ class CardsTest < Minitest::Test
     card = Cards.new("Ace", "Spades")
     assert_equal "Spades", card.suit
   end
+
 end

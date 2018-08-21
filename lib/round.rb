@@ -28,4 +28,8 @@ class Round
     @correct_guesses.count
   end
 
+  def percent_correct
+    (@correct_guesses.count.to_f / @guesses.count.to_f) * 100
+  end
+
 end
