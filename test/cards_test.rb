@@ -18,5 +18,4 @@ class Cardstest < Minitest::Test
     card = Cards.new("Ace", "Spades")
     assert_equal "Spades", card.suit
   end
-
 end
