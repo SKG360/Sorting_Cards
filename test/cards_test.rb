@@ -19,9 +19,4 @@ class Cardstest < Minitest::Test
     assert_equal "Spades", card.suit
   end
 
-  def test_the_hashes
-
-    card = Cards.new("Ace", "Spades")
-    assert_equal 400, card.total_card_value
-  end
 end

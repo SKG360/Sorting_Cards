@@ -14,7 +14,7 @@ class Deck
   def count
     @cards.size
   end
-
+require "pry"; binding.pry
   def sort
     # switch = true
     # switched_array = []
@@ -25,7 +25,6 @@ class Deck
 # =>    assign card_1 and card_2 to local variables
       first_card_value = @cards[index_position].total_card_value
       second_card_value = @cards[index_position +1].total_card_value
-
 # =>    if first card is greater than second card
           if first_card_value > second_card_value
           # then switch the card positions
@@ -36,7 +35,6 @@ class Deck
           end
       end
       return @cards
-
   end
 
 end
