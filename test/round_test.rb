@@ -39,7 +39,7 @@ class RoundTest < Minitest::Test
     card_2 = Card.new("4", "Clubs")
     deck   = Deck.new([card_1, card_2])
     round  = Round.new(deck)
-#assert_instance_of ?? I'm returning an array...
+
     assert_instance_of Guess, round.record_guess({value: "3", suit: "Hearts"})
   end
 
