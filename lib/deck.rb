@@ -24,7 +24,11 @@ class Deck
           if first_card_value > second_card_value
           # then switch the card positions
           @cards[index_position], @cards[index_position +1] = @cards[index_position +1], @cards[index_position]
+<<<<<<< HEAD
+# =>      now the switch is successful
+=======
   #       now the switch is successful
+>>>>>>> master
           end
       end
       return @cards
