@@ -1,6 +1,6 @@
 require 'pry'
 
-class Cards
+class Card
   attr_reader :value, :suit
 
   def initialize(value, suit)
@@ -35,6 +35,5 @@ class Cards
       def total_card_value
         card_value_getter[@value] + suit_value_getter[@suit]
       end
-
 
 end
