@@ -1,5 +1,5 @@
 require 'pry'
-require './lib/cards'
+require './lib/card'
 
 class Guess
   attr_reader :response, :card
